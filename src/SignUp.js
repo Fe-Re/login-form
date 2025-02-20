@@ -1,8 +1,9 @@
 import Icons from "./Icons";
+import { motion } from "framer-motion";
 
 export function SignUp() {
   return (
-    <div className="SignUp">
+    <div className="sign-up">
       <h1>Sign Up</h1>
       <Icons />
       <p>or use your email for registration</p>
@@ -23,7 +24,9 @@ export function SignUp() {
           <input type="password" placeholder="Re-enter Password" />
         </label>
         <br />
-        <button type="submit">Sign Up</button>
+        <motion.button whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}>
+          Sign up
+        </motion.button>
       </form>
     </div>
   );
