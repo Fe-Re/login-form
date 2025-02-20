@@ -2,6 +2,7 @@ import Icons from "./Icons";
 import eye from "./image/eye.png";
 import eyeClosed from "./image/eye-closed.png";
 import { useState } from "react";
+import { motion } from "framer-motion";
 
 export function SignIn() {
   const [pwVisible, setPwVisible] = useState(false);
@@ -36,7 +37,13 @@ export function SignIn() {
         <br />
         <a href="/">Forget your password?</a>
         <br />
-        <button type="submit">Sign In</button>
+        <motion.button
+          whileHover={{ scale: 1.1 }}
+          whileTap={{ scale: 0.9 }}
+          type="submit"
+        >
+          Sign In
+        </motion.button>
       </form>
     </span>
   );
