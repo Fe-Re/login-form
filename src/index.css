@@ -54,3 +54,45 @@ body {
   border-radius: 100px;
   color: white;
 }
+.welcome-message p {
+  padding: 20px;
+}
+
+label > input {
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 15px;
+  border: 1px solid #5f88ee;
+  width: 80%;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+form > button {
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 15px;
+  border: 1px solid #5f88ee;
+  width: 30%;
+  background-color: #5f88ee;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.welcome-message > button {
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 15px;
+  border: 1px solid #ffffff;
+  width: 30%;
+  background-color: #ffffff;
+  color: black;
+  font-weight: 600;
+  cursor: pointer;
+}
