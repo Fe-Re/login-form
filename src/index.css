@@ -64,7 +64,7 @@ label > input {
   padding: 10px;
   border-radius: 15px;
   border: 1px solid #5f88ee;
-  width: 80%;
+  width: 90%;
 }
 form {
   display: flex;
@@ -95,5 +95,16 @@ form > button {
   background-color: #ffffff;
   color: black;
   font-weight: 600;
+  cursor: pointer;
+}
+
+label {
+  position: relative;
+}
+
+.eye {
+  position: absolute;
+  top: 30%;
+  transform: translateX(550%);
   cursor: pointer;
 }
